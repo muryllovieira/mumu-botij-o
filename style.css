@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FDD23B;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs-header1 {
+    display: flex;
+    gap: 6rem;
+}
+
+.muryllo-gas {
+    font-size: 4rem;
+    color: #ffff;
+    text-align: center;
+    font-weight: 800;
+}
+
+.imgs-header2 {
+    display: flex;
+    gap: 6rem;
+}
+
+.container-imgs-esquerdo{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-imgs-gas{
+    margin-left: 6%;
+    margin-top: 3%;
+}
